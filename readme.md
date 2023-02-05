@@ -9,3 +9,6 @@ FOR MORE DETAILS U CAN VISIT THOSE PERTICULAR FOLDERS
 
 # Parallex Landing Page
 ![LandingPage](https://user-images.githubusercontent.com/78648366/216813175-9fc0776e-a62a-430e-9184-e127bf3feefa.gif)
+
+# Fake_store product
+![fakestore](https://user-images.githubusercontent.com/78648366/216813402-d79c4f35-acf9-41f2-a782-bb025448347a.gif)
