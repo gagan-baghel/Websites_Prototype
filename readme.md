@@ -4,14 +4,12 @@ HERE IS THE COLLECTION OF SOME WEBSITES THAT I HAVE MADE WITH MU KNOWLEDGE <BR>
 WITH A VISUAL DEMO ATTACHED TO IT <BR>
 FOR MORE DETAILS U CAN VISIT THOSE PERTICULAR FOLDERS
 
-# Demo PortFolio
-  ![Demo_portfolio](https://user-images.githubusercontent.com/78648366/216824688-0a47e885-132a-41a1-9c83-edfdef5f299e.gif)
-
-
+  
 # Recipe Search
   ![recipe_giver](https://user-images.githubusercontent.com/78648366/216824697-4f321d06-3194-409c-bdbc-8cdee63f173b.gif)
-
   
+# Demo PortFolio
+  ![Demo_portfolio](https://user-images.githubusercontent.com/78648366/216824688-0a47e885-132a-41a1-9c83-edfdef5f299e.gif)
 
 # BAKER'S LANDING PAGE 
 ![bakers](https://user-images.githubusercontent.com/78648366/216812721-d276ead9-ee49-418b-a714-5c417adf1d7d.gif)
