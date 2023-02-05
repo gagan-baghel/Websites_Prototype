@@ -5,9 +5,12 @@ WITH A VISUAL DEMO ATTACHED TO IT <BR>
 FOR MORE DETAILS U CAN VISIT THOSE PERTICULAR FOLDERS
 
 # Demo PortFolio
-  
+  ![Demo_portfolio](https://user-images.githubusercontent.com/78648366/216824688-0a47e885-132a-41a1-9c83-edfdef5f299e.gif)
+
 
 # Recipe Search
+  ![recipe_giver](https://user-images.githubusercontent.com/78648366/216824697-4f321d06-3194-409c-bdbc-8cdee63f173b.gif)
+
   
 
 # BAKER'S LANDING PAGE 
