@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+.logo{
+	font-weight: 700;
+	font-size:1.5rem;
+	border:1px solid white;
+	border-radius: 10px;
+	padding: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.Navbar{
+	z-index: 100;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	display: flex;
+	padding: 15px;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	height:55px
+}
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+li{
+	float: left;
+	font-size: 1.1rem;
+}
+ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 10px 15px;
+	margin-left: 60px;
+}
+
+.joinings{
+	list-style-type: none;
+}
+.joinings li{
+	margin-right: 20px;
+}
+a:hover{
+	background-color: #fff;
+	color:black;
+	border-radius: 30px;
+	padding: 10px 15px;
+}
+.frontImage{
+	height:100vh;
+	width:100%;
+	background-image: url(veg.jpeg);
+	opacity: 97%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+	background-attachment: fixed ;
+}
+.content-right{
+	overflow: hidden;
+	width: 100%;
+	height: 50vh;
+	background: #fff;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap: 30px;
+	background: #000;
+	color:white;
+	font-size: 1.5rem;
+	border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contentBackgroundImage{
+	background-image: url(baker.jpeg);
+	background-position: center center;
+	height: 350px;
+	width:90%;
+	overflow: hidden;
+	border-radius: 12px;
+	padding: 5px;
+	border: 0.5px solid white;
+	margin-bottom: 40px;
+}
+
+.content-right p{
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1.5;
+	padding: 4%;
+	padding-left: 10px;
+}
+
+#second{
+	background-image: url(donut.jpeg);
+
+}
+
+.content-left{
+	overflow: hidden;
+	width: 100%;
+	height: 50vh;
+	background: #fff;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-gap: 30px;
+	background: #000;
+	color:white;
+	font-size: 1.5rem;
+	border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+.content-left p{
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1.5;
+	padding: 4%;
+	padding-left: 10px;
+}
+#third{
+	background-image: url(plate.jpeg);
+}
+
+#fourth{
+	background-image: url(momento.jpeg);
+	background-position: center center;
+}
+
+.buttons{
+	position: absolute;
+	background: rgba(0, 0, 0, 0);
+	top:50%;
+	left:50%;
+	transform: translate(-50%);
+}
+button{
+	position: relative;
+	background: #000;
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 5px;
+	font-size: 2rem;
+	font-weight: 600;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: 3px solid white;
+	background: transparent;
+}
+
+button:hover{
+	background: white;
+	color: #000;
+}
+
+#second p{
+	color:white;
+	position: relative;
+	font-size: 2rem;
+	top:50%;
+	left:30%;
+	transform: translateY(-50%);
+	width:50%;
+}
+
+#second h1{
+	color:white;
+	position: relative;
+	top:50%;
+	left:30%;
+	transform: translateY(-90%);
+	font-size: 4rem;
+}
+
+
+#instagram_logo{
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+	border-radius: 10px;
+	padding: 3px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#whatsapp_logo{
+	background:
+   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+   radial-gradient(#25d366 60%,transparent 0);
+}
+
+#facebook_logo{
+	color:#3b5998;
+}
+
+.footer{
+	height:70px;
+	width:100%;
+	background: black;
+	padding: 1%;
+}
+
+.footer button{
+	padding: 10px;
+	font-size: 1rem;
+	margin-top: 0px;
+}
+
+
+.suggession{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#suggest{
+	position:relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%) ;
+}
+

@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	 padding: 0;
+	box-sizing: border-box;
+}
+
+.heading{
+	text-align: center;
+	font-style: 3rem;
+	margin-bottom: 1.5rem;
+	font-family: sans-serif;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap ;
+}
+
+.card{
+	max-width:23%;
+	min-width:20%;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 10px;
+	text-align: center;
+	padding: 1.5em;
+	margin-bottom: 2em;
+	background-color: #00308F;
+
+}
+
+.title{
+	font-size: 1.3rem;
+	color :white;
+	text-transform: uppercase;
+}
+
+.category,.price{
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 1rem;
+	font-style: 1.2em;
+}
+
+.images{
+	border-radius:15px;
+	border: 1px solid rgb(135, 135, 135);
+	width: 95%;
+	height:250px;
+	object-fit: cover;
+	margin: 1rem auto;
+
+}
+
+body{
+	margin: 40px;
+	background-color: #7CB9E8;
+}
+
+
+
+
+
+
+

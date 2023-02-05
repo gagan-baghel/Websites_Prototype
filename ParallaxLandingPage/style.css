@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	scroll-behavior: smooth;
+}
+.wrapper{
+	height: 200vh;
+	width: 100%;
+}
+
+body{
+	min-height: 150vh;
+
+	background: black;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	padding: 30px 100px;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+header .main{
+	text-decoration: none;
+	color: white;
+	font-size: 4rem;
+	font-weight: 800;
+	text-transform: uppercase;
+
+}
+
+
+header ul{
+	display: flex;
+	list-style: none;
+	color: white;
+}
+ 
+header ul li{
+	list-style: none;
+	padding: 0 20px;
+	font-size: 1.5rem;
+	padding-right: 0px;
+	margin-left: 20px;
+}
+header ul li a{
+	text-decoration: none;
+	padding: 15px 20px;
+	color: white;
+}
+header ul li a:hover,
+header ul li a.active{
+	background-color: white;
+	color: black;
+	border-radius: 50px;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	
+}
+
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover ;
+
+
+}
+section img#mountains_front{
+	z-index: 13;
+}
+
+#moonlight{
+	position: absolute;
+	right: -520px;
+	color: white;
+	word-spacing: nowrap;
+	font-size: 13rem;
+	z-index: 9;
+	 
+}
+
+#btn{
+	text-decoration: none;
+	background: white;
+	border-radius: 50px;
+	padding: 15px 40px;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	z-index: 10;
+	transform: translateY(150px) translateX(110px)
+}
+#btn:hover{
+	background: black;
+	color: white;
+}
+.parellexScroll{
+	color: white;
+	padding: 100px;
+	font-size: 1.5rem;
+	text-align:justify;
+	z-index: 2000;
+}
+.parellexScroll h1{
+	margin:20px;
+}
+
+section::before{
+	content:"";
+	position: absolute;
+	bottom:0;
+	width:100%;
+	height:400px;
+	background: linear-gradient(#00000000, #000000 );
+	z-index:1000
+}
+
+
+.dark{
+	background: linear-gradient(#2b1055, #7597de );  
+}
+.dark1{
+	mix-blend-mode: screen;
+}
+
+button{
+	padding:10px;
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 1.1rem;
+	margin: 0;
+	border: 0;
+}
